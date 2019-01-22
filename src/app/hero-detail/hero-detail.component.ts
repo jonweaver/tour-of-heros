@@ -37,6 +37,6 @@ export class HeroDetailComponent implements OnInit {
       .subscribe(() => this.goBack());
   }
 
-  @Input() hero: Hero;
+  @Input() hero: Hero; 
 
 }
